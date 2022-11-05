@@ -1,13 +1,44 @@
-# ecommerce-back-end
+# E-Commerce Back-End
 
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
+  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## Description
+  Although many may not consider back-end applications to be glamorous, they are essential to a fully-functional site. This back-end application demonstrates the function of models and routes, and this README includes as a video displaying the testing of the app with Insomnia. 
+
+  ## Table of Contents
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
+
+  ## Installation
+  A user must have node.js and MySQL installed on their machine, and the must run the following commands in their terminal to prepare to run this application:
+  - npm install
+  - mysql -u root -p (and then add password to log into sql)
+  - source db/schema.sql
+  - quit
+  - npm run seed
+  - node server.js
+
+  ## Usage
+ [Video of Insomnia Testing](https://drive.google.com/file/d/1zSXVxDDH1fl7F3wUtTgnmI9XUj-znF4k/view)
+
+  The above video shows testing of the application in Insomnia. Because this is a purely back-end app, there is no front-end usage to demonstrate.
+
+  ## Credits
+  N/A
+
+  ## Contributing
+  N/A
+
+  ## License
+  This application is covered under the license: [MIT License](https://opensource.org/licenses/MIT)
+
+  ## Questions
+
+  For questions, please reach out to me at:
+    - [Email] (danielapacker@gmail.com)
+    - [GitHub] (https://github.com/dpackaz)
